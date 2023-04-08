@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration page</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-image: url(Registration\ page.jpg);
+        background-repeat: none;
+        background-size: cover;
+      }
+      .main {
+        display: flex;
+        align-items: center;
+      }
+      .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        font-family: "Times New Roman", Times, serif;
+        font-size: small;
+      }
+      .container {
+        align-items: center;
+        justify-content: center;
+
+        padding: 5px;
+        margin: 5px;
+        width: 40vw;
+        height: 70vh;
+        border: 2px solid white;
+        border-radius: 10px;
+      }
+      .head {
+        align-items: center;
+        display: block;
+        color: white;
+      }
+      .login {
+        align-items: left;
+        color: burlywood;
+      }
+      input {
+        display: block;
+
+        border: 0px 0px 2px 0px;
+        background-color: black;
+        width: 38vw;
+        color: white;
+        border-radius: 7px;
+        font-size: 15px;
+      }
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border: 0px 0px 2px 0px;
+        /* background-color: black; */
+        /* display: block; */
+        color: burlywood;
+
+        border: 0px 0px 2px 0px;
+        width: 38vw;
+
+        
+        border-radius: 7px;
+      }
+      #btn {
+        display: block;
+        background-color: darkblue;
+        align-items: center;
+        color: white;
+        align-items: left;
+      }
+      #res {
+        display: block;
+        background-color: darkblue;
+        border: 0px 0px 2px 0px;
+        align-items: center;
+        color: burlywood;
+      }
+      h4 {
+        display: block;
+        border: 0px 0px 2px 0px;
+        align-items: center;
+       
+        color: burlywood;
+      }
+      #btn:hover{
+        background-color: brown;
+      }
+      #res:hover{
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="head">
+          <center>
+            <img
+              src="https://d3fp5tyfm1gdbn.cloudfront.net/2022/Feb/23/1645607393_user4.png"
+              alt="profile log"
+              height="40px"
+            />
+            <br />
+            <h2>Login Here</h2>
+          </center>
+
+          <br />
+        </div>
+        <div class="login">
+          <label for="user">Username </label><br />
+          <input
+            type="text"
+            placeholder="Enter username"
+            class="log"
+            id="user"
+          />
+          <br />
+          <label for="pass">Password </label><br />
+          <input
+            type="password"
+            placeholder="Enter password"
+            class="log"
+            id="pass"
+          />
+          <br />
+          <button type="submit" class="log" id="btn">login</button>
+          <br />
+          <button type="reset " id="res">Reset</button>
+          <br>
+          <h4><a href="#">forget password</a> </h4>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
